@@ -41,10 +41,10 @@ table{border-collapse:collapse;border-spacing:0}
 td,th{padding:0}
 
 body{
-  background: url(background.jpg);
+  background: url(images/background.jpg);
 }
 .container{
-  background: url(outer.png) no-repeat;
+  background: url(images/outer.png) no-repeat;
   margin: 150px auto;
   width: 1030px;
   height: 425px;
