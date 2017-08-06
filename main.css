@@ -42,52 +42,53 @@ td,th{padding:0}
 
 body{
   background: url(images/background.jpg);
+  margin: auto;
+}
+.stitch{
+  margin: 40px auto 30px;
+  display: block;
 }
 .container{
   background: url(images/outer.png) no-repeat;
-  margin: 150px auto;
+  margin: 0 auto;
   width: 1030px;
   height: 425px;
 }
 .wrapper{
   display: flex;
-  position: relative;
+  justify-content: center;
   padding: 20px 20px 25px 20px;
 }
-.vkladka{
+.inset{
   display: flex;
   align-items: center;
+  position: relative;
 }
-.vkladka h2{
+.inset img{
+  cursor: pointer;
+}
+.inset h2{
   transform: rotate(270deg);
   color: #fff;
-  font-size: 16px;
+  font-size: 22px;
   position: absolute;
-  top: 50px;
-}
-.vkladka img{
+  top: 40px;
+  left: -23px;
+  width: 100px;
+  text-align: right;
   cursor: pointer;
-  transition: all .8s;
-
 }
-.text{
-  background-color: #fff;
+.content{
+  height: 390px;
+}
+.content img{
+  height: 390px;
+  width: 715px;
   border-radius: 5px;
-  height: 385px;;
-  width: 91%;
-  text-align: center;
-  transition: width .8s;
-  overflow: hidden;
-
+  transition: width .4s;
 }
-.text p{
-  width: 720px;
-}
-.hide{
+.hide img{
+  height: 390px;
   width: 0;
-  transition: width 0s;
-
-}
-.hide p{
-  display: none;
+  transition: width .4s;
 }
