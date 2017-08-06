@@ -3,6 +3,6 @@ document.querySelector('.wrapper').onclick = function (e) {
   var b = document.querySelectorAll('.content');
   for (var i = 0; i < b.length; i++) {
     b[i].classList.add('hide');
-  }
+  };
   a.children[2].classList.remove('hide');
 };
